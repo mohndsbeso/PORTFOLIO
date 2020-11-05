@@ -1,0 +1,44 @@
+@import "varpol";
+body
+{
+    margin: 0;
+    font-family: Montserrat;
+    color: #fff !important;
+
+// style : a 
+a{
+    color: #fff;
+}
+a:hover{
+text-decoration: none;
+}
+
+
+}
+
+
+
+
+
+//  Start Varpol Style div .card-icon  * 
+$disply-prgafh: inline-block;
+$font-size-p:49px;
+
+$whidt-svg:40px;
+
+
+//  END Varpol Style div .card-icon  * 
+
+// header style 
+@import "Vendo/header/header";
+
+// NAV style 
+@import "Vendo/Nav/Section-Home-Nav/Section-Home-Nav";
+
+@import "Vendo/Nav/Section-PORTFOLIO-Nav/Section-PORTFOLIO-Nav";
+
+@import "Vendo/Nav/Section-ABOUT-Nav/Section-ABOUT-Nav";
+
+
+// footer 
+@import "Vendo/footer/footer";
